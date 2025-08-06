@@ -352,7 +352,7 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-to-r from-primary-500 to-primary-600 text-white">
+      <section className="section-padding bg-gradient-to-r from-primary-400 to-primary-500 text-white">
         <div className="container-custom text-center">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
