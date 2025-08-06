@@ -2,7 +2,7 @@
   "name": "international-house-website",
   "version": "1.0.0",
   "description": "Modern website for International House Business Centre, Canvey Island",
-  "homepage": "https://cwmedia.github.io/inc",
+  "homepage": "https://cwcmedia.github.io/inc",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
