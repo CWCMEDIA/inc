@@ -117,7 +117,7 @@ const Services = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary-600 to-primary-800 text-white">
+      <section className="relative bg-gradient-to-br from-primary-500 to-primary-700 text-white">
         <div className="container-custom">
           <div className="py-20 text-center">
             <motion.div
@@ -188,7 +188,7 @@ const Services = () => {
                     viewport={{ once: true }}
                     className="bg-white rounded-xl shadow-lg overflow-hidden"
                   >
-                    <div className="bg-gradient-to-r from-primary-600 to-primary-700 p-6 text-white">
+                    <div className="bg-gradient-to-r from-primary-500 to-primary-600 p-6 text-white">
                       <h3 className="text-xl font-bold mb-2">{space.name}</h3>
                       <p className="text-primary-100">{space.size}</p>
                     </div>
@@ -328,7 +328,7 @@ const Services = () => {
           </motion.div>
 
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-            <div className="bg-primary-600 text-white p-6">
+            <div className="bg-primary-500 text-white p-6">
               <h3 className="text-2xl font-bold text-center">What's Included</h3>
             </div>
             <div className="p-6">
@@ -391,7 +391,7 @@ const Services = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-to-r from-primary-600 to-primary-800 text-white">
+      <section className="section-padding bg-gradient-to-r from-primary-500 to-primary-600 text-white">
         <div className="container-custom text-center">
           <motion.div
             initial={{ opacity: 0, y: 50 }}

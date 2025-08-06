@@ -84,7 +84,7 @@ const Contact = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary-600 to-primary-800 text-white">
+      <section className="relative bg-gradient-to-br from-primary-500 to-primary-700 text-white">
         <div className="container-custom">
           <div className="py-20 text-center">
             <motion.div
@@ -418,7 +418,7 @@ const Contact = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-to-r from-primary-600 to-primary-800 text-white">
+      <section className="section-padding bg-gradient-to-r from-primary-500 to-primary-600 text-white">
         <div className="container-custom text-center">
           <motion.div
             initial={{ opacity: 0, y: 50 }}

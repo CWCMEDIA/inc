@@ -31,12 +31,12 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-primary-500 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">IH</span>
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-gray-900">International House</h1>
-              <p className="text-xs text-gray-600">Business Centre</p>
+              <p className="text-xs text-primary-600">Business Centre</p>
             </div>
           </Link>
 

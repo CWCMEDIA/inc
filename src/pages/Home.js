@@ -72,7 +72,7 @@ const Home = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary-600 to-primary-800 text-white overflow-hidden">
+      <section className="relative bg-gradient-to-br from-primary-500 to-primary-700 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="container-custom relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen">
@@ -292,7 +292,7 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding gradient-bg text-white">
+      <section className="section-padding bg-gradient-to-r from-primary-500 to-primary-600 text-white">
         <div className="container-custom text-center">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
